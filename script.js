@@ -14,8 +14,11 @@ const altroNomeInventato = "hello world";
 
 const prezzoPerKm = 0.21
 
-let prezzoTotale = numKm * prezzoPerKm
-console.log (prezzoTotale)
+// let prezzoTotale = numKm * prezzoPerKm
+// console.log (prezzoTotale)
+
+const numKm = 10;
+console.log (numKm);
 
 const btn1 = document.querySelector('.btn1');
 
@@ -27,11 +30,6 @@ btn1.addEventListener('click',function(){
 })
 
 
-document.getElementById('output').innerHTML = `
-Il giocatore ha giocato ${pariDispari} con numero ${numGiocatore} <br>
-Il pc ha giocato ${numPc}  <br>
-${messaggio}
-`
 
 
 

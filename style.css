@@ -3,6 +3,9 @@
   justify-content: space-around;
 }
 
+.output{
+  text-align: center;
+}
 .column{
   display: flex;
   flex-direction:column ;

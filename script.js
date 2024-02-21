@@ -12,7 +12,26 @@ const altroNomeInventato = "hello world";
 
 // ********** inizio **********
 
+var btnGenera = document.getElementById('genera')
+console.log (btnGenera);
+
+btnGenera.addEventListener('click', function(){
+  var name = document.getElementById ('name').value
+})
+
+var km = document.getElementById('km')
+
+
+var minorenni = document.getElementById('minorenni')
+
+console.log (genera , name , km)
+
+var biglietto = document.getElementById('biglietto')
+
+
+
 const prezzoPerKm = 0.21
+
 
 // let prezzoTotale = numKm * prezzoPerKm
 // console.log (prezzoTotale)

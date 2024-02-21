@@ -14,18 +14,18 @@
 
       <div id="name" class="column">
         <h3>Nome</h3>
-        <input type="text" class="form-control " placeholder="nome">
+        <input id="nomePasseggero" type="text" class="form-control " placeholder="nome">
       </div>
       
       <div id="km" class="column">
         <h3>Quanti km vuoi percorrere?</h3>
-        <input type="text" placeholder="Scrivi i km">
+        <input id="km" type="text" placeholder="Scrivi i km">
       </div>
 
 
     <form action="" class="column">
       <h3>Fascia d'età</h3>
-        <select class="form-select select-età" >
+        <select id="minorenni" class="form-select select-età" >
           <option value="minorenne">Minorenne</option>
           <option value="maggiorenne">Maggiorenne</option>
           <option value="over 65">Over 65</option>
@@ -36,10 +36,14 @@
 
     </div>
     <div class="bottoni">
-      <button class="btn2 btn btn-primary m-3">Genera - il contenuto va nella parte sottostante</button>
-      <button class="btn1 btn btn-primary m-3">Annulla</button>
+      <button id="genera" class="btn2 btn btn-primary m-3">Genera - il contenuto va nella parte sottostante</button>
+      <button id="annulla" class="btn1 btn btn-primary m-3">Annulla</button>
     </div>
   
+  </div>
+
+  <div class="biglietto">
+    
   </div>
 
     <script src="script.js"></script>

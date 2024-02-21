@@ -4,12 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>calcolo biglietto treno</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.min.js" integrity="sha512-EKWWs1ZcA2ZY9lbLISPz8aGR2+L7JVYqBAYTq5AXgBkSjRSuQEGqWx8R1zAX16KdXPaCjOCaKE8MCpU0wcHlHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>calcolo biglietto treno form</title>
 </head>
-<body>
+<body >
   <div class="container my-5">
-    <h1>Calcolo prezzo biglietto treno</h1>
+    <h1 class="output">Calcola il prezzo del tuo biglietto</h1>
+    <div class="container-dati">
+
+      <div class="column">
+        <h3>Nome</h3>
+        <input type="text" placeholder="nome">
+      </div>
+      
+      <div class="column">
+        <h3>cognome</h3>
+        <input type="text" placeholder="cognome">
+      </div>
+
+
+    <form action="" class="column">
+      <h3>Fascia d'età</h3>
+        <select class="form-select select-età" >
+          <option value="rosso">Minorenne</option>
+          <option value="verde">Maggiorenne</option>
+          <option value="blu">Over 65</option>
+        </select>
+    </form>
+
     <h2 id="output"> </h2>
+
+    </div>
+    <div class="bottoni">
+      <button class="btn2 btn btn-primary m-3">Genera</button>
+      <button class="btn1 btn btn-primary m-3">Annulla</button>
+    </div>
+  
   </div>
 
     <script src="script.js"></script>

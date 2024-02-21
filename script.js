@@ -11,10 +11,10 @@ const altroNomeInventato = "hello world";
 
 // ********** inizio **********
 
-const numKm =prompt ('Quanti km vuoi percorrere?');
+const numKm ('Quanti km vuoi percorrere?');
 console.log (numKm);
 
-const etaPasseggero =prompt ('Quanti anni hai? ');
+const etaPasseggero  ('Quanti anni hai? ');
 console.log (etaPasseggero);
 
 const prezzoPerKm = 0.21
@@ -22,7 +22,14 @@ const prezzoPerKm = 0.21
 let prezzoTotale = numKm * prezzoPerKm
 console.log (prezzoTotale)
 
-// let message = '';
+const btn1 = document.querySelector('.btn1');
+
+btn7.addEventListener('click',function(){
+  // resetto il titolo
+  titoloInput.innerHTML = testoTitoloInput;
+  // resetto il value dell'input
+  input1.value = '';
+})
 
 
 if(etaPasseggero < 18){

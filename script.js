@@ -14,7 +14,7 @@ const altroNomeInventato = "hello world";
 
 const prezzoPerKm = 0.21
 
-
+const .getElementById('')
 
 const btn1 = document.querySelector('.btn1');
 
@@ -24,6 +24,13 @@ btn1.addEventListener('click',function(){
   // resetto il value dell'input
   input1.value = '';
 })
+
+
+document.getElementById('output').innerHTML = `
+Il giocatore ha giocato ${pariDispari} con numero ${numGiocatore} <br>
+Il pc ha giocato ${numPc}  <br>
+${messaggio}
+`
 
 
 

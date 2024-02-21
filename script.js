@@ -12,9 +12,16 @@ const altroNomeInventato = "hello world";
 
 // ********** inizio **********
 
+const numKm =prompt ('Quanti km vuoi percorrere?');
+console.log (numKm);
+
+const etaPasseggero =prompt ('Quanti anni hai? ');
+console.log (etaPasseggero);
+
 const prezzoPerKm = 0.21
 
-const .getElementById('')
+let prezzoTotale = numKm * prezzoPerKm
+console.log (prezzoTotale)
 
 const btn1 = document.querySelector('.btn1');
 
